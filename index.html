@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components Navigation</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+      }
+      nav a:link,
+      nav a:visited {
+        text-decoration: none;
+        display: inline-block;
+        color: #555;
+        transition: all 0.3s;
+      }
+      nav a:hover,
+      nav a:active {
+        text-decoration: none;
+        color: #1d00dc;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a target="_blank" href="01-accordion.html">Accordion Component</a>
+      <a target="_blank" href="02-carousel.html">Carousel Component</a>
+      <a target="_blank" href="03-table.html">Table Component</a>
+      <a target="_blank" href="04-pagination.html">Pagination Component</a>
+      <a target="_blank" href="05-hero.html">Hero Component</a>
+      <a target="_blank" href="06-app-layout.html">Layout Component</a>
+    </nav>
+  </body>
+</html>
